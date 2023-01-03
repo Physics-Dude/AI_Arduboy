@@ -20,6 +20,9 @@ Up - Mark AI module as "Constructive" or "Good"
 Down - Mark AI module as "Destructive or "Bad"  
 B - Toggle sound on/off  
 
-Here is a Google Sheet/Excel document that you can use to make your own verb/noun lists:  
+**Very short demo video with sound**  
+https://www.youtube.com/watch?v=JKSmHC0b7_8
+
+**Here is a Google Sheet/Excel document that you can use to make your own verb/noun lists:**  
 https://docs.google.com/spreadsheets/d/1g_faTWEzZ0kmPCXj78JnV4_LHmt-BcecV4cVemXffTM/
 
