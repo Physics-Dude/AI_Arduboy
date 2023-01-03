@@ -7,18 +7,16 @@
   start to show signs of corruption! ooooOO!
 
   Inspired in part by  ZackFreedman's Singularitron/SingularitronFirmware/flavortext.h
-  Thousands of aditional vocabulary words were added from inspirition gained from various
-  websites I visit, and Discord servers I frequent. Thanks to those that chimed in!
+  Over a thousand aditional vocabulary words were added from inspirition gained from 
+  various websites I visit, and Discord servers I frequent. Thanks to those that chimed in!
 
   Here is a Google Sheet/Excel document that you can use to make your own verb/noun lists:
   https://docs.google.com/spreadsheets/d/1g_faTWEzZ0kmPCXj78JnV4_LHmt-BcecV4cVemXffTM/
-
-
 */
 
 #include <Arduboy2.h>
 Arduboy2 arduboy;
-BeepPin1 beep; // Create a class instance for speaker pin 1
+BeepPin1 beep; 
 
 //fonts by filmote
 //https://community.arduboy.com/t/3x5-font-for-those-with-good-eyesight/4920
@@ -79,8 +77,7 @@ bool gameStart = false;
 bool soundON = true;
 bool invertTextState = false;
 
-
-//////////////////////////////////////////////////////////// Effects and Helpers //////////////////////////////////
+//                                                                          //Effects and Helpers 
 //Reset all game vars and clear screen
 void resetEnv() {
   strike = 0;
@@ -132,7 +129,7 @@ void loadingIcon(byte locx, byte locy) {
   arduboy.display();
 }
 
-//////////////////////////////////////////////////////////// Mode Stuff //////////////////////////////////
+//                                                                          Mode Selecting
 //Set game difficulty and print some text for the menu
 void changeDifficulty(signed char updown) {
   difficulty += updown;
@@ -260,7 +257,7 @@ void drawSubText(uint8_t cycle = 0) { //cycle 0 = just display, 1 = increment, 2
   arduboy.display();
 }
 
-//////////////////////////////////////////////////////////// Printing Press //////////////////////////////////
+//                                                                            Printing Press
 //Print one char to the bottom line of the display in the correct font
 void printer(uint8_t character, int pos) {
   //Animate typing with cursor
@@ -309,7 +306,7 @@ void printerWrapper (String input) {
   }
 }
 
-//////////////////////////////////////////////////////////// Setup //////////////////////////////////
+//                                                                              Setup
 void setup() {
   arduboy.begin();
   beep.begin();
@@ -337,13 +334,13 @@ void setup() {
   resetEnv();
 }
 
-//////////////////////////////////////////////////////////// Loop  //////////////////////////////////
+//                                                                            Loop Start
 void loop() {
   // Pause render until it's time for the next frame
   if (!(arduboy.nextFrame()))
     return;
 
-  //////////////////////////////////////////////////////////// Main menu  //////////////////////////////////
+  //                                                                           Main Menu
   //if game hasent started, show the menu
   if (!gameStart) {
 
@@ -411,7 +408,7 @@ void loop() {
     arduboy.clear();
   }
 
-  //////////////////////////////////////////////////////////// Game state  //////////////////////////////////
+  //                                                                            Game State
   if (gameStart) {
 
     //Generate a phrase that fits
@@ -592,7 +589,7 @@ void loop() {
       score--;
     }
 
-    // Print the log to the screen. Prepair for next round.                                                   -------game not over, update log
+    // Print the log to the screen. 
     arduboy.clear();
     int posFirstLog = lastLine - lineHeight;
     for (int i = 0; i < maxRows; i++) {
@@ -614,7 +611,7 @@ void loop() {
     }
     arduboy.display();
 
-    // If game over, show game over screen                                                                            --------------game over screen
+    // GAME OVER show game over screen
     if (strike >= maxStrikes) {
       bool blonk = false;
       bool failOnce = false;
