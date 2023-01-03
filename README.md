@@ -9,6 +9,17 @@ Features cool bleep bloop sounds too! (The typing sound is directly akin to the 
 Inspired in part by ZackFreedman's Singularitron/SingularitronFirmware/flavortext.h well over a thousand additional vocabulary words were added from inspiration gained from various websites I visit and Discord servers I frequent. Thanks to those that chimed in! Additional phrases and programming insight by OpenAI's ChatGPT.
 Includes small fonts by filmote.
 
+**Main Menu controls:**  
+Up/Down - Cycle subtext (intro, help, tips)  
+Left/Right - Change difficulty and text size   
+B - Toggle sound on/off  
+A - Start Game  
+
+**In-Game controls:**  
+Up - Mark AI module as "Constructive" or "Good"  
+Down - Mark AI module as "Destructive or "Bad"  
+B - Toggle sound on/off  
+
 Here is a Google Sheet/Excel document that you can use to make your own verb/noun lists:  
 https://docs.google.com/spreadsheets/d/1g_faTWEzZ0kmPCXj78JnV4_LHmt-BcecV4cVemXffTM/
 
