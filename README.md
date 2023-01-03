@@ -21,7 +21,7 @@ Down - Mark AI module as "Destructive or "Bad"
 B - Toggle sound on/off  
 
 **Very short demo video with sound**  
-https://www.youtube.com/watch?v=JKSmHC0b7_8
+https://youtu.be/_KbKm7HAEqI
 
 **Arduboy Community Discussion:**  
 https://community.arduboy.com/t/ai-arduboy-a-dorky-game-of-skill-where-you-train-an-ai/10775/3
