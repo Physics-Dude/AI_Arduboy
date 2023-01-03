@@ -4,7 +4,9 @@
   The idea is that you have to teach an AI what 'modules' are constructive or destructive.
   There are over half-a-million possible modules. You have to hurry though, if it loads a
   module before you train it, you loose points. If you guess improperly, the AI will
-  start to show signs of corruption! ooooOO!
+  start to show signs of corruption! ooooOO! Features cool bleep bloop sounds too! 
+  (The typing sound is directly akin to the W.O.P.R.'s text stream in the opening of 
+  the 1983 film War Games!)
 
   Inspired in part by  ZackFreedman's Singularitron/SingularitronFirmware/flavortext.h
   Over a thousand aditional vocabulary words were added from inspirition gained from 
