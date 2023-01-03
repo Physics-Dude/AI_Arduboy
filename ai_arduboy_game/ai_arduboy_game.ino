@@ -684,7 +684,7 @@ void loop() {
       for (int i = 127; i > 0; i--) {
         arduboy.drawFastVLine(i, 0, 128, BLACK);
         arduboy.display();
-        delay(1);
+        delay(4);
       }
 
       //We are done. Reset the game environment so we can return to menu.
