@@ -23,6 +23,9 @@ B - Toggle sound on/off
 **Very short demo video with sound**  
 https://www.youtube.com/watch?v=JKSmHC0b7_8
 
+**Arduboy Community Discussion:**  
+https://community.arduboy.com/t/ai-arduboy-a-dorky-game-of-skill-where-you-train-an-ai/10775/3
+
 **Here is a Google Sheet/Excel document that you can use to make your own verb/noun lists:**  
 https://docs.google.com/spreadsheets/d/1g_faTWEzZ0kmPCXj78JnV4_LHmt-BcecV4cVemXffTM/
 
